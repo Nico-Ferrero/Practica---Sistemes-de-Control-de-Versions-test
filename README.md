@@ -34,7 +34,11 @@ git flow init
 
 ### Tareas del usuario 2
 
+
+
 ### Tareas del usuario 3
+
+
 
 ### Release
 
@@ -44,10 +48,14 @@ git flow init
 
 ### Hotfix
 - Iniciamos la release:
-![Imagen descriptiva](/img/Captura%20de%20pantalla%202025-10-01%20170553.png)
+![Imagen descriptiva](./img/Captura%20de%20pantalla%202025-10-01%20170553.png)
 
 - Hacemos un commit con las mejoras y terminamos la relase:
-![Imagen descriptiva](/img/Captura%20de%20pantalla%202025-10-01%20170659.png)
+![Imagen descriptiva](./img/Captura%20de%20pantalla%202025-10-01%20170659.png)
 
-- No olvidemos subir las tags al servidor
-![Imagen descriptiva](/img/Captura%20de%20pantalla%202025-10-01%20170734.png)
+- No olvidemos subir las tags al servidor !!!
+![Imagen descriptiva](./img/Captura%20de%20pantalla%202025-10-01%20170734.png)
+
+# IMAGEN FINAL DEL GRAFO
+
+![Imagen descriptiva](./img/graph.png)
