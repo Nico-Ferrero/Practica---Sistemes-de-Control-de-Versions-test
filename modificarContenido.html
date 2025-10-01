@@ -1,0 +1,90 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title></title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/home.css">
+        <link rel="stylesheet" href="css/modificarContenido.css">
+        <meta name="description" content="">
+
+        <meta property="og:title" content="">
+        <meta property="og:type" content="">
+        <meta property="og:url" content="">
+        <meta property="og:image" content="">
+        <meta property="og:image:alt" content="">
+
+        <link rel="icon" href="/favicon.ico" sizes="any">
+        <link rel="icon" href="/icon.svg" type="image/svg+xml">
+        <link rel="apple-touch-icon" href="icon.png">
+
+        <link rel="manifest" href="site.webmanifest">
+        <meta name="theme-color" content="#fafafa">
+    </head>
+
+    <body>
+        <header>
+
+            <div class="top-header">
+            <div class="logo">
+                <img src="" alt="">
+            </div>
+            <div class="titulo">
+                <h1>Pràctica - Sistemes de Control de Versions</h1>
+            </div>
+            </div>
+
+            <div class="bot-header">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="modificarContenido.html">Modificar Contenido Html</a>
+                <a href="#">Modificar Estilos CSS</a>
+                <a href="#">Modificar Atributos HTML</a>
+            </nav>
+            </div>
+
+        </header>
+        <main>
+
+            <div class="description">
+                <h2>Descripcion del apartado</h2>
+                <p>En este apartado vamos a aprender sobre modificar el contenido HTML de una página web.
+                <br>
+                A la izquierda tenemos un ejemplo de código HTML que podemos modificar, y a la derecha tenemos una vista previa del mismo.
+                <br>
+                Al hacer click en el botón "Click Me!" se cambiará el contenido del párrafo.
+                </p>
+            </div>
+
+            <div class="container">
+<div class="input1">
+                <h2>Modificar el contenido HTML</h2>
+                <textarea name="text" id="text" cols="50" rows="20"> 
+<!DOCTYPE html>
+<html>
+<body>
+    <h2>What Can JavaScript Do?</h2>
+    <p id="demo">JavaScript can change HTML content.</p>
+    <button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>
+    Click Me!
+    </button>
+</body>
+</html>
+                </textarea> 
+
+            </div>
+            <div class="input2">
+                <h2>Vista previa del contenido HTML</h2>
+                <h3 id="demo">Ejemplo de contenido HTML</h3>
+                <button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
+            </div>
+            </div>
+
+        </main>
+        <footer>
+            <p>Hecho por: <strong>Nico Ferrero</strong></p>
+        </footer>
+    </body>
+</html>
